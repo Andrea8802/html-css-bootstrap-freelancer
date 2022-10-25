@@ -26,3 +26,23 @@ section img{
 .section_3{
     background-color: #1abc9c;
 }
+
+footer{
+    height: 560px;
+}
+
+.top{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    background-color: rebeccapurple;
+
+}
+
+.bottom{
+    height: 20%;
+    /* DEBUG */
+    background-color: aqua;
+}
