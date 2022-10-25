@@ -12,12 +12,14 @@ header{
 }
 
 section img{
+    /* DEBUG */
     background-color: blue;
     width: 200px;
 }
 
 .section_1{
     background-color: #1abc9c;
+    /* DEBUG */
     min-height: 500px;
 }
 
