@@ -39,26 +39,52 @@ header .row{
     height: 100%;
 }
 
+/* Main Rules */
+
 /* DEBUG */
 [class*="col-"]{
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 section img{
     /* DEBUG */
-    background-color: blue;
-    width: 200px;
+   width: 250px;
 }
 
-.ms_section_b{
+section h2{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.ms_section_1{
     background-color: #1abc9c;
-    /* DEBUG */
-    min-height: 500px;
+}
+
+.ms_section_1 div{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.ms_section_1 i{
+    font-size: 28px;
+}
+
+.ms_bar{
+    background-color: white;
+    height: 4px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.ms_bar.two{
+    width: 130px;
 }
 
 footer{
     height: 560px;
-    display: ;
 }
 
 .top{
