@@ -20,9 +20,6 @@ header nav{
     height: 100%;
 }
 
-nav a:hover{
-    color: white;
-}
 
 nav h1{
     font-size: 28px;
@@ -42,8 +39,14 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
 nav i{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header .row{
@@ -51,18 +54,12 @@ header .row{
 }
 
 /* Main Rules */
-
-/* DEBUG */
-[class*="col-"]{
-    /* border: 1px solid black; */
-}
-
-section img{
-    /* DEBUG */
+.ms_section_1 img{
    width: 250px;
+   cursor: pointer;
 }
 
-section h2{
+.ms_section_1 h2{
     color: white;
     font-weight: 600;
     font-size: 40px;
@@ -114,6 +111,7 @@ section h2{
 .ms_section_2 img{
     width: 100%;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .ms_section_2 img:hover{
@@ -153,6 +151,15 @@ section h2{
     font-weight: 600;
 }
 
+.ms_section_3 a:hover{
+    color: var(--background-color);
+    background-color: white;
+}
+
+.ms_section_3 a:hover i{
+    color: var(--background-color)
+}
+
 .ms_section_3 a i{
     font-size: 20px;
 }
@@ -170,10 +177,14 @@ section h2{
     font-size: 30px;
 }
 
+.ms_section_4 form{
+    width: 55%;
+}
+
 .ms_section_4 form > *{
     border: none;
     border-bottom: 2px solid lightgray;
-    width: 55%;
+    width: 100%;
     padding: 15px;
 }
 
@@ -196,6 +207,12 @@ section h2{
     font-size: 18px;
     padding: 10px 10px;
     font-weight: 600;
+    border: none;
+    align-self: flex-start;
+}
+
+#ms_submit:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer{
@@ -221,6 +238,10 @@ footer{
     text-decoration: none;
 }
 
+.top p a:hover{
+    text-decoration: underline;
+}
+
 .top .col-12{
     color: white;
     font-size: 18px;
@@ -229,8 +250,13 @@ footer{
 .top .col-12 i{
     border: 1px solid white;
     font-size: 20px;
-    /* padding: 10px 10px; */
     border-radius: 50%;
+}
+
+.top .col-12 i:hover{
+    background-color: white;
+    border: 1px solid #3a546d;
+    color: #3a546d;
 }
 
 .fa-facebook-f{
