@@ -1,14 +1,47 @@
+/* General Rules */
+li{
+    list-style: none;
+}
+
+/* Header Rules */
 header{
     height: 90px;
-    /* DEBUG */
-    background-color: red;
+    background-color: #2c3e50;
+}
+
+header nav{
+    height: 100%;
+}
+
+nav h1{
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+}
+
+nav h2{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav i{
+    font-size: 20px;
+}
+
+header .row{
+    height: 100%;
 }
 
 /* DEBUG */
 [class*="col-"]{
-    background-color: brown;
-    min-height: 90px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 section img{
@@ -17,18 +50,15 @@ section img{
     width: 200px;
 }
 
-.section_1{
+.ms_section_b{
     background-color: #1abc9c;
     /* DEBUG */
     min-height: 500px;
 }
 
-.section_3{
-    background-color: #1abc9c;
-}
-
 footer{
     height: 560px;
+    display: ;
 }
 
 .top{
