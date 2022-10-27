@@ -28,33 +28,33 @@ main{
     padding-top: 70px;
 }
 
-.ms_section_1 img{
+.ms_section_hero img{
    width: 250px;
    cursor: pointer;
 }
 
-.ms_section_1 h2{
+.ms_section_hero h2{
     color: white;
     font-weight: 600;
     font-size: 40px;
 }
 
-.ms_section_1{
+.ms_section_hero{
     background-color: var(--background-color)
 }
 
-.ms_section_1 div{
+.ms_section_hero div{
     color: white;
     font-size: 20px;
     font-weight: 500;
 }
 
 
-.ms_section_1 i{
+.ms_section_hero i{
     font-size: 28px;
 }
 
-.ms_section_1 .ms_bar {
+.ms_section_hero .ms_bar {
     background-color: white;
 }
 
@@ -68,52 +68,52 @@ main{
     width: 130px;
 }
 
-.ms_section_2 h3{
+.ms_section_portfolio h3{
     color: var(--secondary-color);
     font-weight: 600;
 }
 
-.ms_section_2 .ms_bar {
+.ms_section_portfolio .ms_bar {
     background-color: var(--secondary-color);
 }
 
-.ms_section_2 i{
+.ms_section_portfolio i{
     color: var(--secondary-color);
     font-size: 23px;
 }
 
-.ms_section_2 img{
+.ms_section_portfolio img{
     width: 100%;
     border-radius: 15px;
     cursor: pointer;
 }
 
-.ms_section_3{
+.ms_section_about{
     background-color: var(--background-color);
 }
 
-.ms_section_3 h3{
+.ms_section_about h3{
     color: white;
     font-weight: 600;
 }
 
-.ms_section_3 i{
+.ms_section_about i{
     color: white;
     font-size: 28px;
 }
 
-.ms_section_3 .ms_bar {
+.ms_section_about .ms_bar {
     background-color: white;
 }
 
-.ms_section_3 p{
+.ms_section_about p{
     color: white;
     font-weight: 600;
     font-size: 18px;
     text-align: left;
 }
 
-.ms_section_3 a{
+.ms_section_about a{
     color: white;
     border: 1px solid white;
     text-decoration: none;
@@ -121,48 +121,48 @@ main{
     font-weight: 600;
 }
 
-.ms_section_3 a:hover{
+.ms_section_about a:hover{
     color: var(--background-color);
     background-color: white;
 }
 
-.ms_section_3 a:hover i{
+.ms_section_about a:hover i{
     color: var(--background-color)
 }
 
-.ms_section_3 a i{
+.ms_section_about a i{
     font-size: 20px;
 }
 
-.ms_section_4 h3{
+.ms_section_contact h3{
     font-weight: 600;
 }
 
-.ms_section_4 .ms_bar{
+.ms_section_contact .ms_bar{
     background-color: var(--secondary-color);
 }
 
-.ms_section_4 i{
+.ms_section_contact i{
     color: var(--secondary-color);
     font-size: 30px;
 }
 
-.ms_section_4 form{
+.ms_section_contact form{
     width: 55%;
 }
 
-.ms_section_4 form > *{
+.ms_section_contact form > *{
     border: none;
     border-bottom: 2px solid lightgray;
     width: 100%;
     padding: 15px;
 }
 
-.ms_section_4 form > *:focus{
+.ms_section_contact form > *:focus{
     outline: none;
 }
 
-.ms_section_4 form > *::placeholder{
+.ms_section_contact form > *::placeholder{
     color: var(--secondary-color);
     font-weight: 600;
     opacity: 1;
@@ -189,35 +189,35 @@ footer{
     height: 560px;
 }
 
-.top{
+.ms_top{
     height: 80%;
     background-color: #3a546d;
 }
 
-.top p{
+.ms_top p{
     font-size: 20px;
 }
 
-.top a{
+.ms_top a{
     color: white;
     text-decoration: none;
 }
 
-.top p a{
+.ms_top p a{
     color: #1abb9b;
     text-decoration: none;
 }
 
-.top p a:hover{
+.ms_top p a:hover{
     text-decoration: underline;
 }
 
-.top .col-12{
+.ms_top .col-12{
     color: white;
     font-size: 18px;
 }
 
-.top .col-12 i{
+.ms_top .col-12 i{
     border: 1px solid white;
     font-size: 20px;
     border-radius: 50%;
@@ -225,22 +225,22 @@ footer{
     padding: 13px 0;
 }
 
-.top .col-12 i:hover{
+.ms_top .col-12 i:hover{
     background-color: white;
     border: 1px solid #3a546d;
     color: #3a546d;
 }
 
-.bottom{
+.ms_bottom{
     height: 20%;
     background-color: #2c3e50;
 }
 
-.bottom div{
+.ms_bottom div{
     color: white;
     font-size: 14px;
 }
 
-.bottom div i{
+.ms_bottom div i{
     font-size: 10px;
 }
