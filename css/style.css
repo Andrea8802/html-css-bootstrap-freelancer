@@ -221,28 +221,14 @@ footer{
     border: 1px solid white;
     font-size: 20px;
     border-radius: 50%;
+    width: 50px;
+    padding: 13px 0;
 }
 
 .top .col-12 i:hover{
     background-color: white;
     border: 1px solid #3a546d;
     color: #3a546d;
-}
-
-.fa-facebook-f{
-    padding: 15px 20px;
-}
-
-.fa-google-plus-g{
-    padding: 15px 13px;
-}
-
-.fa-twitter{
-    padding: 15px 15px;
-}
-
-.fa-linkedin-in{
-    padding: 15px 17px;
 }
 
 .bottom{
